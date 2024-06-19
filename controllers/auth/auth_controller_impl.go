@@ -30,7 +30,7 @@ func (c *AuthControllerImpl) SignupHandler(ctx *gin.Context) {
 
 	ctx.JSON(http.StatusCreated, models.Response[string]{
 		Status:  "success",
-		Message: "User created successfully",
+		Message: "user created successfully",
 	})
 }
 
